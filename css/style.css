@@ -23,7 +23,7 @@ body {font-family: raleway;}
 	background: #c1c1c1;
 }.carousel-caption {padding-bottom: 30%;}
 h1 {
-    font-size: 64px;
+    font-size: 59px;
 }section#about {
     background: #f2e1e1;
     padding: 15px 0 60px 0px;
@@ -69,15 +69,6 @@ section#contact {
 	width: 90%;
 	padding: 8px;
 }footer {
-    height: 100px;
-    padding-top: 35px;
-    background: black;
-    color: #fff;
-    margin: 20px 0 55px 0 ;
-    font-family: amaticsc;
-    letter-spacing: 3px;
-}
-map{
     height: 100px;
     padding-top: 35px;
     background: black;
