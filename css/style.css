@@ -77,3 +77,12 @@ section#contact {
     font-family: amaticsc;
     letter-spacing: 3px;
 }
+map{
+    height: 100px;
+    padding-top: 35px;
+    background: black;
+    color: #fff;
+    margin: 20px 0 55px 0 ;
+    font-family: amaticsc;
+    letter-spacing: 3px;
+}
