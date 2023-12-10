@@ -11,6 +11,13 @@
 	font-family: amaticsc;
 	src: url(../font/AmaticSC-Regular.ttf);
 }
+@font-face {
+	font-family: BeauRivage;
+	src: url(../font/BeauRivage-Regular.ttf);
+}
+.font-1{
+    font-family: Melvastype;
+}
 body {font-family: raleway;}
 .carousel-inner>.item>a>img, .carousel-inner>.item>img {
     line-height: 1;
@@ -20,10 +27,27 @@ body {font-family: raleway;}
     margin: 7px 3px 0 3px ;
 }.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>.active>a, 
 .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-	background: #c1c1c1;
-}.carousel-caption {padding-bottom: 30%;}
+	background: #a9dde6;
+}.carousel-caption {
+    padding-bottom: 31%;}
 h1 {
+    font-family: BeauRivage;
+    font-weight: bold;
+    color: #24dc24;
     font-size: 59px;
+}h2 {
+    font-family: BeauRivage;
+    font-weight: bold;
+    color: #1426e6;
+    font-size: 30px;
+}h3 {
+    font-family: BeauRivage;
+    font-weight: bold;
+    color: #1426e6;
+    font-size: 30px;
+}p{
+    font-weight: bold;
+    color: #ec1616;
 }section#about {
     background: #f2e1e1;
     padding: 15px 0 60px 0px;
@@ -46,12 +70,12 @@ h1 {
     padding: 210px 0 0 0;
 }section#wedding h1 {
 	font-size: 40px;
-	color:#757575
+	color:#24dc24
 }section#wedding {
     background: #f2e1e1;
     padding: 10px;
 }.thumbnail {
-    background: #fdd;
+    background: #ffdddd;
     margin: 30px 0;
 	border: 1px solid #b19898;
 	padding-top: 20px;
@@ -68,6 +92,8 @@ section#contact {
 }.inputCome {
 	width: 90%;
 	padding: 8px;
+}.map{
+    text-align: center;
 }footer {
     height: 100px;
     padding-top: 35px;
